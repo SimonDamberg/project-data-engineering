@@ -14,7 +14,7 @@ echo "==== Downloaded dataset! ===="
 echo "==== Extracting file ===="
 unzstd RC_2010-06.zst --memory=2048MB
 mv RC_2010-06 RC_2010-06.json
-rm RC_2010-06.zstl
+rm RC_2010-06.zst
 echo "==== Extracted file! ===="
 
 echo "==== Processing relevant fields ===="
